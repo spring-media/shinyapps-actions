@@ -11,7 +11,7 @@ steps:
         fetch-depth: 0
   - id: deploy
     name: Deploy to shinyapps.io
-    uses: github.com/spring-media/shinyapps-actions@main
+    uses: spring-media/shinyapps-actions@main
     env:
         SHINY_USERNAME: 'myusername'
         SHINY_TOKEN: ${{ secrets.SHINYAPP_TOKEN }}
